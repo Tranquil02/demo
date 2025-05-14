@@ -9,7 +9,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://a364-2404-7c80-5c-4ec6-5039-31d8-26da-62cc.ngrok-free.app/api/payment", {
+      const res = await axios.post("https://e8d4-2404-7c80-5c-4ec6-9ca3-ba7c-9275-f277.ngrok-free.app/api/payment", {
         amount,
         email,
       });
